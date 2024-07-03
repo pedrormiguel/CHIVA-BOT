@@ -1,9 +1,8 @@
 import fs from 'fs';
 
 // Read the contents of the JSON file
-const path = 'D:\\Project\\WS-chatbot-chivas\\src\\local\\user.json';
+const path = './user.json';
 let jsonData;
-
 
 export function SaveData(user) {
 
@@ -29,3 +28,5 @@ export function SaveData(user) {
 
   console.log("After Adding data", JSON.stringify(jsonData, null, 4));
 }
+
+module.exports = SaveData;

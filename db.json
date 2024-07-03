@@ -1,15 +1,16 @@
 [
   {
-    "ref": "b7482ca6-e1d8-442a-80b7-9033d1a46def",
+    "ref": "5e3ded68-d6de-45de-834d-58eafc6b93f5",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
     "answer": "Hola",
     "options": {},
     "from": "18492128091",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "keyword": "key_ef7fdcd8-612e-4892-8af9-5a7a148dc92c",
-    "answer": "*Bienvenido* al servicio de atención al cliente de Chivas Regal, Ballantines y Royal Salute.\n\nCelebrando el Día del Padre.\nSelecciona : \n\n1. Participar en Concurso.\n\n2. Ver centros disponibles.",
+    "ref": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "keyword": "key_172e38b8-68c9-4f7b-886a-937b9e18703b",
+    "answer": "*Bienvenido* y gracias por confiar en nosotros Chivas Regal, Ballantines y Royal Salute.\n\nPara celebrar el Día del Padre tenemos grandes premios.\nSelecciona : \n\n*1.* Participar en Concurso.\n",
     "options": {
       "buttons": [],
       "capture": false,
@@ -18,12 +19,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "0d72833f42e10ad7ad9cbbab7367beb0",
+    "refSerialize": "ded9f6cb97ddd597cea2028ff15f8d8c",
     "from": "18492128091"
   },
   {
-    "ref": "ans_3ce3aba5-687a-4dac-89dd-9687bcac7743",
-    "keyword": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -33,166 +34,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "ede43a97a6f288e613d3b20c28a1be74",
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
     "from": "18492128091"
   },
   {
-    "ref": "971c7c7e-b45f-4db5-b348-1ae63921d35b",
-    "keyword": "ede43a97a6f288e613d3b20c28a1be74",
-    "answer": "2",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "keyword": "key_d237456f-23e2-479d-9f31-a83da8d81b58",
-    "answer": "Puede pasar por cualquier de nuestros centros disponibles y participar por increibles premios :\n\n1.📍 ALM. HATUEY HERRERA\n2.📍 CDLC ENRIQUILLO\n3.📍 RON DEPOT REAL\n4.📍 ALBERT LICORES SD\n5.📍 RON DEPOT NACO\n6.📍 LICORMART KENNEDY\n7.📍 OCHO SANTOS JDP\n8.📍 VOCATUS LA VEGA\n\n1. Volver al menu anterior.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_7571c841-7432-43ce-9e58-eca1db0733f5",
-    "keyword": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "answer": "__call_action__",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "b9f0393a-782e-4e7a-a66b-3eec50b9482f",
+    "ref": "ada12f64-e6ce-4821-bf1c-312cd1563cdb",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
     "answer": "1",
     "options": {},
     "from": "18492128091",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "keyword": "key_ef7fdcd8-612e-4892-8af9-5a7a148dc92c",
-    "answer": "*Bienvenido* al servicio de atención al cliente de Chivas Regal, Ballantines y Royal Salute.\n\nCelebrando el Día del Padre.\nSelecciona : \n\n1. Participar en Concurso.\n\n2. Ver centros disponibles.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "0d72833f42e10ad7ad9cbbab7367beb0",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_3ce3aba5-687a-4dac-89dd-9687bcac7743",
-    "keyword": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ede43a97a6f288e613d3b20c28a1be74",
-    "from": "18492128091"
-  },
-  {
-    "ref": "20ff04bd-521a-486a-9085-24adffe3ec32",
-    "keyword": "ede43a97a6f288e613d3b20c28a1be74",
-    "answer": "2",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "keyword": "key_d237456f-23e2-479d-9f31-a83da8d81b58",
-    "answer": "Puede pasar por cualquier de nuestros centros disponibles y participar por increibles premios :\n\n1.📍 ALM. HATUEY HERRERA\n2.📍 CDLC ENRIQUILLO\n3.📍 RON DEPOT REAL\n4.📍 ALBERT LICORES SD\n5.📍 RON DEPOT NACO\n6.📍 LICORMART KENNEDY\n7.📍 OCHO SANTOS JDP\n8.📍 VOCATUS LA VEGA\n\n1. Volver al menu anterior.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_7571c841-7432-43ce-9e58-eca1db0733f5",
-    "keyword": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "answer": "__call_action__",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "ce1b13a7-000d-4514-841a-2480bcfceb15",
-    "answer": "1",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "keyword": "key_ef7fdcd8-612e-4892-8af9-5a7a148dc92c",
-    "answer": "*Bienvenido* al servicio de atención al cliente de Chivas Regal, Ballantines y Royal Salute.\n\nCelebrando el Día del Padre.\nSelecciona : \n\n1. Participar en Concurso.\n\n2. Ver centros disponibles.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "0d72833f42e10ad7ad9cbbab7367beb0",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_3ce3aba5-687a-4dac-89dd-9687bcac7743",
-    "keyword": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ede43a97a6f288e613d3b20c28a1be74",
-    "from": "18492128091"
-  },
-  {
-    "ref": "6a496b58-e7f7-4d82-a66e-cd32a63c548e",
-    "keyword": "ede43a97a6f288e613d3b20c28a1be74",
-    "answer": "1",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_69f8ae82-c5bb-4c8b-901f-888788ea8ae1",
-    "keyword": "key_7a9f93cd-1df7-435e-9fc6-4d20d08d4275",
+    "ref": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "keyword": "key_20a93811-be6e-4619-a427-8d0795ae158f",
     "answer": "Para registrarnos en el concurso, vamos a necesitar conocer algunas cosas sobre ti.\n\n",
     "options": {
       "buttons": [],
@@ -200,15 +55,15 @@
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": true
+      "callback": false
     },
-    "refSerialize": "93c02b06d101d45b9680a6cd5899db71",
+    "refSerialize": "a6b90dd9612cccfb019654e30df5cfe5",
     "from": "18492128091"
   },
   {
-    "ref": "ans_96c6ac81-117a-4eaa-a25d-111055a8de11",
-    "keyword": "ans_69f8ae82-c5bb-4c8b-901f-888788ea8ae1",
-    "answer": "Por favor, escriba su *nombre completo* : ",
+    "ref": "ans_b917ab08-7842-41c5-af1c-76529864a662",
+    "keyword": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "answer": "Por favor, compartenos una foto de tu *cedula* :",
     "options": {
       "buttons": [],
       "capture": false,
@@ -217,12 +72,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "7acdea285e0d6596c49c81a8bf7bb9f8",
+    "refSerialize": "3b4d6be487831d54088e833c23316e0f",
     "from": "18492128091"
   },
   {
-    "ref": "ans_22d0f386-b80f-42fe-a340-f3f5a95806c2",
-    "keyword": "ans_96c6ac81-117a-4eaa-a25d-111055a8de11",
+    "ref": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
+    "keyword": "ans_b917ab08-7842-41c5-af1c-76529864a662",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -232,96 +87,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
+    "refSerialize": "e32d6ec0f466e59324f66c51956dcce1",
     "from": "18492128091"
   },
   {
-    "ref": "1f64493e-4573-43b2-8bfd-fa820e8e0be1",
-    "keyword": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
-    "answer": "Pedr",
+    "ref": "f68068b2-5e65-4819-96a2-cbaa4a86166b",
+    "keyword": "e32d6ec0f466e59324f66c51956dcce1",
+    "answer": "_event_media__0925ddc8-73d6-4134-b09c-a301cac8faac",
     "options": {},
     "from": "18492128091",
-    "refSerialize": "c25fcd8039b252d373ee2072c1332ef6"
+    "refSerialize": "be9af05f12634164cc3ccaea6e505f29"
   },
   {
-    "ref": "ans_22d0f386-b80f-42fe-a340-f3f5a95806c2",
-    "keyword": "ans_96c6ac81-117a-4eaa-a25d-111055a8de11",
-    "answer": "Debe registrar un nombre valido :",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
-    "from": "18492128091"
-  },
-  {
-    "ref": "69677ed1-8c97-4cc1-8af6-2ff7021948f6",
-    "keyword": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
-    "answer": "Pedro Rui",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "c5892829621e238e2dda0c75bd74fd31"
-  },
-  {
-    "ref": "ans_884ccb9c-9bd1-41ff-a5b0-b5c638aa3c46",
-    "keyword": "ans_22d0f386-b80f-42fe-a340-f3f5a95806c2",
-    "answer": "Por favor, escriba su *número de identificación* : ",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "34660fa72fc676da6bb2764d45734f84",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_ec68e359-3c3f-41df-9429-127b0a049572",
-    "keyword": "ans_884ccb9c-9bd1-41ff-a5b0-b5c638aa3c46",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "0d2c838a0c9a3da0de28eede72ae3e2d",
-    "from": "18492128091"
-  },
-  {
-    "ref": "00403076-c94a-4ee7-80e0-e09f135a1a99",
-    "keyword": "0d2c838a0c9a3da0de28eede72ae3e2d",
-    "answer": "40228010332",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "28cafa548230a82b0e457672d5f70f9a"
-  },
-  {
-    "ref": "ans_dab60cc5-715a-4813-b991-6591f2845078",
-    "keyword": "ans_ec68e359-3c3f-41df-9429-127b0a049572",
-    "answer": "Por favor, escriba el numero donde realizo su compra :\n1.📍 ALM. HATUEY HERRERA\n2.📍 CDLC ENRIQUILLO\n3.📍 RON DEPOT REAL\n4.📍 ALBERT LICORES SD\n5.📍 RON DEPOT NACO\n6.📍 LICORMART KENNEDY\n7.📍 OCHO SANTOS JDP\n8.📍 VOCATUS LA VEGA",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "96e2dcb9387d1d22a80f539adc468d0a",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_7f57d279-9a01-47ee-9a84-edca704ea75c",
-    "keyword": "ans_dab60cc5-715a-4813-b991-6591f2845078",
+    "ref": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
+    "keyword": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
     "answer": "__call_action__",
     "options": {
       "buttons": [],
@@ -331,35 +110,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "63e3be56fbcbdb00fc5baac24c052b3a",
+    "refSerialize": "4e1f9df4d65f03b20c8cb95aae66b4b9",
     "from": "18492128091"
   },
   {
-    "ref": "ans_2c027a98-3a63-4782-b201-8892e2f22e61",
-    "keyword": "ans_7f57d279-9a01-47ee-9a84-edca704ea75c",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "77e95cd14c37f83064bec0e1447c6914",
-    "from": "18492128091"
-  },
-  {
-    "ref": "6caceadc-884a-4a83-a14b-87cf5f0f946b",
-    "keyword": "77e95cd14c37f83064bec0e1447c6914",
-    "answer": "667",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "49b94e0d79fc11456a2fd816f0c8f024"
-  },
-  {
-    "ref": "ans_b04ac719-0d03-40b0-8d48-93cb8c9bfcc8",
-    "keyword": "ans_2c027a98-3a63-4782-b201-8892e2f22e61",
+    "ref": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "keyword": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
     "answer": "Favor de tomar una foto de su comprobante donde se visualice los datos correctamente :",
     "options": {
       "buttons": [],
@@ -369,12 +125,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "d196b432140ad01921c35f74b6ef872b",
+    "refSerialize": "dbebcd9061b2a50b8a9c34834bdf1a9c",
     "from": "18492128091"
   },
   {
-    "ref": "ans_68a704b1-37ab-472f-bac3-011bfcd07c2d",
-    "keyword": "ans_b04ac719-0d03-40b0-8d48-93cb8c9bfcc8",
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -384,58 +140,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a50b5ff68e5c45f139bc0e7d0b63c32",
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
     "from": "18492128091"
   },
   {
-    "ref": "603952fc-aa45-44f9-9d27-dd24d8cb6ea5",
-    "keyword": "3a50b5ff68e5c45f139bc0e7d0b63c32",
-    "answer": "_event_media__ecc50f04-6c36-4292-b41c-6b4642588bab",
+    "ref": "074602bc-c98a-4cee-8058-e5b4495c60e9",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "_event_media__119703cd-26d8-41a5-b107-21608b0be72b",
     "options": {},
     "from": "18492128091",
-    "refSerialize": "0195b696554d6d738a0a94b764727129"
+    "refSerialize": "9474f963d819ea6c527bf53577bc674b"
   },
   {
-    "ref": "ans_a9107b1d-334a-4f20-a997-48b9816a07b1",
-    "keyword": "ans_68a704b1-37ab-472f-bac3-011bfcd07c2d",
-    "answer": "Por favor, escriba la *numeracion unica (NCF) de su factura* : ",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "2fe357dde693f797b065ea40b449c658",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_f2f80900-b127-416c-a884-d09dec478f10",
-    "keyword": "ans_a9107b1d-334a-4f20-a997-48b9816a07b1",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "5c9463b36380ef37823ddda3668c7833",
-    "from": "18492128091"
-  },
-  {
-    "ref": "626cd1a0-cdad-4a1b-b713-a3ff98a19202",
-    "keyword": "5c9463b36380ef37823ddda3668c7833",
-    "answer": "787611",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "9a2e4cd508a917614869aa70da19dc5d"
-  },
-  {
-    "ref": "ans_f18bd9db-b469-4ac9-9572-141f35aeb278",
-    "keyword": "ans_f2f80900-b127-416c-a884-d09dec478f10",
+    "ref": "ans_2d0ea96d-3400-4c85-a454-9dcc0d46ecc1",
+    "keyword": "ans_c78b568b-c220-4626-84d1-9781bf124837",
     "answer": "__call_action__",
     "options": {
       "buttons": [],
@@ -445,13 +163,28 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "14e11453baa83a79d061238bce3a5e05",
+    "refSerialize": "b210b6d1717dd8215692650271853329",
     "from": "18492128091"
   },
   {
-    "ref": "8953809d-484c-4c4c-837e-78d929836161",
+    "ref": "ans_c72dc593-9ca8-4652-b5b9-8741e36c8135",
+    "keyword": "ans_2d0ea96d-3400-4c85-a454-9dcc0d46ecc1",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cc6eae2ddb0a2ea1051d542bc720331d",
+    "from": "18492128091"
+  },
+  {
+    "ref": "b582d587-13b4-4a2d-9bb6-abf6a1753ddb",
     "keyword": null,
-    "answer": "Ya estas participando en la rifa para grandes, premios.",
+    "answer": "Excelente, ya estas participando en nuestra rifa para grandes premios. No.4",
     "options": {
       "media": null,
       "buttons": [],
@@ -459,11 +192,11 @@
       "delay": 0
     },
     "from": "18492128091",
-    "refSerialize": "76c8162a34ef7cd664a7aaee6639e062"
+    "refSerialize": "c86777398614d95bfff21c02951e3c7c"
   },
   {
-    "ref": "cd81bbe6-47cc-460b-9542-11b68fbb93ec",
-    "keyword": "ans_f18bd9db-b469-4ac9-9572-141f35aeb278",
+    "ref": "5967c67d-b39b-449d-a3ee-6fbed5eea3a2",
+    "keyword": "ans_c72dc593-9ca8-4652-b5b9-8741e36c8135",
     "answer": "__end_flow__",
     "options": {
       "media": null,
@@ -475,17 +208,17 @@
     "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
   },
   {
-    "ref": "0bc7399f-7ab9-4774-8fcf-181ebeb8e824",
+    "ref": "9dd01299-bb58-4908-8ba1-f718a468a4b6",
     "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
-    "answer": "👋",
+    "answer": "Hola",
     "options": {},
     "from": "18492128091",
-    "refSerialize": "335049f0c4c5cbd634f0d1efc4404349"
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "keyword": "key_ef7fdcd8-612e-4892-8af9-5a7a148dc92c",
-    "answer": "*Bienvenido* al servicio de atención al cliente de Chivas Regal, Ballantines y Royal Salute.\n\nCelebrando el Día del Padre.\nSelecciona : \n\n1. Participar en Concurso.\n\n2. Ver centros disponibles.",
+    "ref": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "keyword": "key_172e38b8-68c9-4f7b-886a-937b9e18703b",
+    "answer": "*Bienvenido* y gracias por confiar en nosotros Chivas Regal, Ballantines y Royal Salute.\n\nPara celebrar el Día del Padre tenemos grandes premios.\nSelecciona : \n\n*1.* Participar en Concurso.\n",
     "options": {
       "buttons": [],
       "capture": false,
@@ -494,12 +227,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "0d72833f42e10ad7ad9cbbab7367beb0",
+    "refSerialize": "ded9f6cb97ddd597cea2028ff15f8d8c",
     "from": "18492128091"
   },
   {
-    "ref": "ans_3ce3aba5-687a-4dac-89dd-9687bcac7743",
-    "keyword": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -509,93 +242,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "ede43a97a6f288e613d3b20c28a1be74",
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
     "from": "18492128091"
   },
   {
-    "ref": "fd6f58d9-5e5f-4bc5-8c5b-38b6e2204084",
-    "keyword": "ede43a97a6f288e613d3b20c28a1be74",
-    "answer": "2",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "keyword": "key_d237456f-23e2-479d-9f31-a83da8d81b58",
-    "answer": "Puede pasar por cualquier de nuestros centros disponibles y participar por increibles premios :\n\n1.📍 ALM. HATUEY HERRERA\n2.📍 CDLC ENRIQUILLO\n3.📍 RON DEPOT REAL\n4.📍 ALBERT LICORES SD\n5.📍 RON DEPOT NACO\n6.📍 LICORMART KENNEDY\n7.📍 OCHO SANTOS JDP\n8.📍 VOCATUS LA VEGA\n\n1. Volver al menu anterior.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_7571c841-7432-43ce-9e58-eca1db0733f5",
-    "keyword": "ans_154ce63f-b2ce-49ab-b20f-268816f79ca1",
-    "answer": "__call_action__",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "from": "18492128091"
-  },
-  {
-    "ref": "5b096cba-dd4f-4c7e-844b-d90e45394ed0",
+    "ref": "825bb2ff-3c31-4897-87b6-c9c4c0f9c930",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
     "answer": "1",
     "options": {},
     "from": "18492128091",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "keyword": "key_ef7fdcd8-612e-4892-8af9-5a7a148dc92c",
-    "answer": "*Bienvenido* al servicio de atención al cliente de Chivas Regal, Ballantines y Royal Salute.\n\nCelebrando el Día del Padre.\nSelecciona : \n\n1. Participar en Concurso.\n\n2. Ver centros disponibles.",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "0d72833f42e10ad7ad9cbbab7367beb0",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_3ce3aba5-687a-4dac-89dd-9687bcac7743",
-    "keyword": "ans_4bbaf887-0837-4b4e-9523-a23eec26f500",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ede43a97a6f288e613d3b20c28a1be74",
-    "from": "18492128091"
-  },
-  {
-    "ref": "0813b635-6769-4f05-a137-27195f0cf956",
-    "keyword": "ede43a97a6f288e613d3b20c28a1be74",
-    "answer": "1",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_69f8ae82-c5bb-4c8b-901f-888788ea8ae1",
-    "keyword": "key_7a9f93cd-1df7-435e-9fc6-4d20d08d4275",
+    "ref": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "keyword": "key_20a93811-be6e-4619-a427-8d0795ae158f",
     "answer": "Para registrarnos en el concurso, vamos a necesitar conocer algunas cosas sobre ti.\n\n",
     "options": {
       "buttons": [],
@@ -603,15 +263,15 @@
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": true
+      "callback": false
     },
-    "refSerialize": "93c02b06d101d45b9680a6cd5899db71",
+    "refSerialize": "a6b90dd9612cccfb019654e30df5cfe5",
     "from": "18492128091"
   },
   {
-    "ref": "ans_96c6ac81-117a-4eaa-a25d-111055a8de11",
-    "keyword": "ans_69f8ae82-c5bb-4c8b-901f-888788ea8ae1",
-    "answer": "Por favor, escriba su *nombre completo* : ",
+    "ref": "ans_b917ab08-7842-41c5-af1c-76529864a662",
+    "keyword": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "answer": "Por favor, compartenos una foto de tu *cedula* :",
     "options": {
       "buttons": [],
       "capture": false,
@@ -620,12 +280,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "7acdea285e0d6596c49c81a8bf7bb9f8",
+    "refSerialize": "3b4d6be487831d54088e833c23316e0f",
     "from": "18492128091"
   },
   {
-    "ref": "ans_22d0f386-b80f-42fe-a340-f3f5a95806c2",
-    "keyword": "ans_96c6ac81-117a-4eaa-a25d-111055a8de11",
+    "ref": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
+    "keyword": "ans_b917ab08-7842-41c5-af1c-76529864a662",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -635,73 +295,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
+    "refSerialize": "e32d6ec0f466e59324f66c51956dcce1",
     "from": "18492128091"
   },
   {
-    "ref": "fa75524a-0f2f-4597-918c-be4e325fec6b",
-    "keyword": "8acc32ad4bbd1a8e2af5e9bd5cccec3e",
-    "answer": "Pedro Ruiz",
+    "ref": "d7eef687-00ce-4e3d-befe-d3e4372d7c16",
+    "keyword": "e32d6ec0f466e59324f66c51956dcce1",
+    "answer": "_event_media__f5173dc6-5bda-4297-99dd-9cf682689abd",
     "options": {},
     "from": "18492128091",
-    "refSerialize": "8bb34b816589b9fdd87ea0764a0bfd1a"
+    "refSerialize": "0769482bbc37404fd2c8d5fe6adffb28"
   },
   {
-    "ref": "ans_884ccb9c-9bd1-41ff-a5b0-b5c638aa3c46",
-    "keyword": "ans_22d0f386-b80f-42fe-a340-f3f5a95806c2",
-    "answer": "Por favor, escriba su *número de identificación* : ",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "34660fa72fc676da6bb2764d45734f84",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_ec68e359-3c3f-41df-9429-127b0a049572",
-    "keyword": "ans_884ccb9c-9bd1-41ff-a5b0-b5c638aa3c46",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "0d2c838a0c9a3da0de28eede72ae3e2d",
-    "from": "18492128091"
-  },
-  {
-    "ref": "e070f236-3fbb-418e-9254-484016276b89",
-    "keyword": "0d2c838a0c9a3da0de28eede72ae3e2d",
-    "answer": "40228010332",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "28cafa548230a82b0e457672d5f70f9a"
-  },
-  {
-    "ref": "ans_dab60cc5-715a-4813-b991-6591f2845078",
-    "keyword": "ans_ec68e359-3c3f-41df-9429-127b0a049572",
-    "answer": "Por favor, escriba el numero donde realizo su compra :\n1.📍 ALM. HATUEY HERRERA\n2.📍 CDLC ENRIQUILLO\n3.📍 RON DEPOT REAL\n4.📍 ALBERT LICORES SD\n5.📍 RON DEPOT NACO\n6.📍 LICORMART KENNEDY\n7.📍 OCHO SANTOS JDP\n8.📍 VOCATUS LA VEGA",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "96e2dcb9387d1d22a80f539adc468d0a",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_7f57d279-9a01-47ee-9a84-edca704ea75c",
-    "keyword": "ans_dab60cc5-715a-4813-b991-6591f2845078",
+    "ref": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
+    "keyword": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
     "answer": "__call_action__",
     "options": {
       "buttons": [],
@@ -711,35 +318,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "63e3be56fbcbdb00fc5baac24c052b3a",
+    "refSerialize": "4e1f9df4d65f03b20c8cb95aae66b4b9",
     "from": "18492128091"
   },
   {
-    "ref": "ans_2c027a98-3a63-4782-b201-8892e2f22e61",
-    "keyword": "ans_7f57d279-9a01-47ee-9a84-edca704ea75c",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "77e95cd14c37f83064bec0e1447c6914",
-    "from": "18492128091"
-  },
-  {
-    "ref": "5d63214e-b690-4948-864c-c909e77208dd",
-    "keyword": "77e95cd14c37f83064bec0e1447c6914",
-    "answer": "777",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "91cd5eb92f8080a1aa3c8432b410a6a4"
-  },
-  {
-    "ref": "ans_b04ac719-0d03-40b0-8d48-93cb8c9bfcc8",
-    "keyword": "ans_2c027a98-3a63-4782-b201-8892e2f22e61",
+    "ref": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "keyword": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
     "answer": "Favor de tomar una foto de su comprobante donde se visualice los datos correctamente :",
     "options": {
       "buttons": [],
@@ -749,12 +333,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "d196b432140ad01921c35f74b6ef872b",
+    "refSerialize": "dbebcd9061b2a50b8a9c34834bdf1a9c",
     "from": "18492128091"
   },
   {
-    "ref": "ans_68a704b1-37ab-472f-bac3-011bfcd07c2d",
-    "keyword": "ans_b04ac719-0d03-40b0-8d48-93cb8c9bfcc8",
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -764,58 +348,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a50b5ff68e5c45f139bc0e7d0b63c32",
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
     "from": "18492128091"
   },
   {
-    "ref": "511e5d7c-0fe6-4597-b299-0a4abbe26a05",
-    "keyword": "3a50b5ff68e5c45f139bc0e7d0b63c32",
-    "answer": "_event_media__f4cb565a-84a1-4a19-a1c2-c6a4f4294057",
+    "ref": "75b002d7-be6d-4326-a8a9-fb261b87759a",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "_event_media__0975983e-3374-4aad-9b69-77f4c1fc8376",
     "options": {},
     "from": "18492128091",
-    "refSerialize": "9fa62951554307d1ab48f49594793e18"
+    "refSerialize": "3e282425e62cb73eb4f18563e27593b0"
   },
   {
-    "ref": "ans_a9107b1d-334a-4f20-a997-48b9816a07b1",
-    "keyword": "ans_68a704b1-37ab-472f-bac3-011bfcd07c2d",
-    "answer": "Por favor, escriba la *numeracion unica (NCF) de su factura* : ",
-    "options": {
-      "buttons": [],
-      "capture": false,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "2fe357dde693f797b065ea40b449c658",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ans_f2f80900-b127-416c-a884-d09dec478f10",
-    "keyword": "ans_a9107b1d-334a-4f20-a997-48b9816a07b1",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "5c9463b36380ef37823ddda3668c7833",
-    "from": "18492128091"
-  },
-  {
-    "ref": "ea480a0e-7e59-48a3-8be9-41b5d758486d",
-    "keyword": "5c9463b36380ef37823ddda3668c7833",
-    "answer": "89899",
-    "options": {},
-    "from": "18492128091",
-    "refSerialize": "47ed4b2b181e25e070b63492cc138d31"
-  },
-  {
-    "ref": "ans_f18bd9db-b469-4ac9-9572-141f35aeb278",
-    "keyword": "ans_f2f80900-b127-416c-a884-d09dec478f10",
+    "ref": "ans_2d0ea96d-3400-4c85-a454-9dcc0d46ecc1",
+    "keyword": "ans_c78b568b-c220-4626-84d1-9781bf124837",
     "answer": "__call_action__",
     "options": {
       "buttons": [],
@@ -825,13 +371,28 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "14e11453baa83a79d061238bce3a5e05",
+    "refSerialize": "b210b6d1717dd8215692650271853329",
     "from": "18492128091"
   },
   {
-    "ref": "e8630400-9ffc-4a1b-b868-bbe10833d338",
+    "ref": "ans_c72dc593-9ca8-4652-b5b9-8741e36c8135",
+    "keyword": "ans_2d0ea96d-3400-4c85-a454-9dcc0d46ecc1",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cc6eae2ddb0a2ea1051d542bc720331d",
+    "from": "18492128091"
+  },
+  {
+    "ref": "4114cf4e-77dc-49c6-bb39-5ee5a41f2aaa",
     "keyword": null,
-    "answer": "Ya estas participando en la rifa para grandes, premios.",
+    "answer": "Excelente, ya estas participando en nuestra rifa para grandes premios. No.2",
     "options": {
       "media": null,
       "buttons": [],
@@ -839,11 +400,11 @@
       "delay": 0
     },
     "from": "18492128091",
-    "refSerialize": "76c8162a34ef7cd664a7aaee6639e062"
+    "refSerialize": "a74f000f607b8784c8addd37df196688"
   },
   {
-    "ref": "8d713793-6b6a-4687-9c4e-0305380298d7",
-    "keyword": "ans_f18bd9db-b469-4ac9-9572-141f35aeb278",
+    "ref": "170dfa3a-2292-46e7-a8c1-c5009fb08506",
+    "keyword": "ans_c72dc593-9ca8-4652-b5b9-8741e36c8135",
     "answer": "__end_flow__",
     "options": {
       "media": null,
@@ -853,5 +414,348 @@
     },
     "from": "18492128091",
     "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "keyword": "key_172e38b8-68c9-4f7b-886a-937b9e18703b",
+    "answer": "*Bienvenido* y gracias por confiar en nosotros Chivas Regal, Ballantines y Royal Salute.\n\nPara celebrar el Día del Padre tenemos grandes premios.\nSelecciona : \n\n*1.* Participar en Concurso.\n",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "ded9f6cb97ddd597cea2028ff15f8d8c",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
+    "from": "18294504219"
+  },
+  {
+    "ref": "571fd4a5-8774-4ac6-8a92-a0dd616e94d0",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
+    "answer": "Getsugaaaa",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "ea9b900b8268aa6082e0a5bb51e177b5"
+  },
+  {
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "answer": "Por favor, escriba la opción correcta ( 1 ).",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
+    "from": "18294504219"
+  },
+  {
+    "ref": "5bb72859-a137-44b7-9c6e-583ac7f63d5c",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
+    "answer": "ª",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "126bcabaf637c2ee9773022b4ab7c174"
+  },
+  {
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "answer": "Por favor, escriba la opción correcta ( 1 ).",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
+    "from": "18294504219"
+  },
+  {
+    "ref": "49cdbf5b-6dcf-48b3-bab6-8cc8cf6488ba",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
+    "answer": "Equiumi",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "0f53aa4c91e92b4ea9cacf43d9ab0bc8"
+  },
+  {
+    "ref": "ans_2aa17912-8fef-46d5-97d9-81f753eead6d",
+    "keyword": "ans_343e02ef-3b3c-462b-b02c-efe520785133",
+    "answer": "Por favor, escriba la opción correcta ( 1 ).",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8c00484a73f8f230ef567b2fdd1463d0",
+    "from": "18294504219"
+  },
+  {
+    "ref": "0fd8c49f-5945-4240-b718-2279d1d30606",
+    "keyword": "8c00484a73f8f230ef567b2fdd1463d0",
+    "answer": "1",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "keyword": "key_20a93811-be6e-4619-a427-8d0795ae158f",
+    "answer": "Para registrarnos en el concurso, vamos a necesitar conocer algunas cosas sobre ti.\n\n",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a6b90dd9612cccfb019654e30df5cfe5",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ans_b917ab08-7842-41c5-af1c-76529864a662",
+    "keyword": "ans_2b72c29b-2607-4dab-bfaf-8c76d89fabdd",
+    "answer": "Por favor, compartenos una foto de tu *cedula* :",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3b4d6be487831d54088e833c23316e0f",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
+    "keyword": "ans_b917ab08-7842-41c5-af1c-76529864a662",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e32d6ec0f466e59324f66c51956dcce1",
+    "from": "18294504219"
+  },
+  {
+    "ref": "8c5669f9-322a-4c8b-b8ca-351cf1b0cbbc",
+    "keyword": "e32d6ec0f466e59324f66c51956dcce1",
+    "answer": "Po e obligai",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "248e8c28b4511aac8aa5b64ac67aa571"
+  },
+  {
+    "ref": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
+    "keyword": "ans_b917ab08-7842-41c5-af1c-76529864a662",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e32d6ec0f466e59324f66c51956dcce1",
+    "from": "18294504219"
+  },
+  {
+    "ref": "fb08b66e-62d5-4d5c-8c7d-72a57560fb4b",
+    "keyword": "e32d6ec0f466e59324f66c51956dcce1",
+    "answer": "_event_media__ada1e215-c5a3-41e1-9b95-ab0fd3faf6a2",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "6fe25a4c9dcb65135b87ff929e380a20"
+  },
+  {
+    "ref": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
+    "keyword": "ans_30207456-4e4f-4215-96bd-0a55ee9a31c4",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4e1f9df4d65f03b20c8cb95aae66b4b9",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "keyword": "ans_9cf21272-066a-41d6-88e1-2f4e71804f22",
+    "answer": "Favor de tomar una foto de su comprobante donde se visualice los datos correctamente :",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "dbebcd9061b2a50b8a9c34834bdf1a9c",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
+  },
+  {
+    "ref": "94c3baa2-c9cd-4d5b-9b46-3422844f68b3",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "Oh",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "7ad6a0cb0adab89d425f13417f6ee74b"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
+  },
+  {
+    "ref": "ea330c4a-f029-4c1e-b555-b88e67806471",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "Y como el supo? 🤣🤣🤣🤣",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "c9b789a6b6006ff32f610507abf51a18"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
+  },
+  {
+    "ref": "f811dc4d-d71c-4d36-891d-498ae190236f",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "Ah coño",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "0a0ca25c2b6d7ba5906a56474ade67b8"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
+  },
+  {
+    "ref": "4bdc6552-4c14-4d6b-8764-ea611f907e72",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "No puedo",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "e7013c699a146dc6b5e2888aefa78020"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
+  },
+  {
+    "ref": "039ce946-d805-4368-a0fd-4047094998ba",
+    "keyword": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "answer": "Ahh",
+    "options": {},
+    "from": "18294504219",
+    "refSerialize": "ff63d98fc831b9fafb69fd88dac0bdec"
+  },
+  {
+    "ref": "ans_c78b568b-c220-4626-84d1-9781bf124837",
+    "keyword": "ans_12f83f77-abc0-4f78-86f7-ebb906f7fa57",
+    "answer": "Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7b66aaa28d5fab24930b9bdf935cdc",
+    "from": "18294504219"
   }
 ]
