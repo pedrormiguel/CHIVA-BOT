@@ -1,7 +1,13 @@
 import { addKeyword } from '@builderbot/bot';
 import { BaileysProvider } from '@builderbot/provider-baileys'
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { IDatabase } from '~/provider/json-provider.js';
 import { uploadImageInde, uploadImageV2 } from '~/services/Services';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename); // Assuming you have 'path' imported
+
 
 const user = {
     phoneNumber: "",
@@ -22,7 +28,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
                 bot.fallBack("Debe enviar una imagen valida de la factura, debe ser legible.")
 
             try {
-                localPath = await bot.provider.saveFile(ctx, { path: './src/local/img' })
+                localPath = await bot.provider.saveFile(ctx, { path: path.join(__dirname, './../local/img') });
             } catch (error) {
                 console.log(error)
                 bot.fallBack("Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :")
