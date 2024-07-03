@@ -58,6 +58,7 @@ const main = async () => {
     )
 
     httpServer(+PORT)
+    
 }
 
 main()

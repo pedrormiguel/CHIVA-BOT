@@ -24,6 +24,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
             try {
                 localPath = await bot.provider.saveFile(ctx, { path: './src/local/img' })
             } catch (error) {
+                console.log(error)
                 bot.fallBack("Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :")
             }
 

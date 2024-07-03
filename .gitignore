@@ -6,6 +6,6 @@ src\local\img\*.jpeg
 *_sessions
 *tokens
 .wwebjs*
-
+db.json
 *.log
 *qr.png
