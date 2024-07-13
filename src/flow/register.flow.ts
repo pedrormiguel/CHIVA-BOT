@@ -3,7 +3,7 @@ import { BaileysProvider } from '@builderbot/provider-baileys'
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { IDatabase } from '~/provider/json-provider.js';
-import { uploadImageInde, uploadImageV2 } from '~/services/Services';
+import { uploadImageInde, uploadImageV2, uploadImageV3 } from '~/services/Services';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename); // Assuming you have 'path' imported
@@ -11,22 +11,45 @@ const __dirname = path.dirname(__filename); // Assuming you have 'path' imported
 
 const user = {
     phoneNumber: "",
+    NameOfClient: "",
     ID: "",
+    phoneNumberClient: "",
     filePathPurchase: "",
 }
 
 export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", "participar"])
     .addAnswer("Para registrarnos en el concurso, vamos a necesitar conocer algunas cosas sobre ti.\n\n")
 
+    //Capture NameOfClient
+    .addAnswer("Por favor, escriba su el *nombre del cliente* :", { capture: true },
+        async (ctx, bot) => {
+
+            if (!(ctx.body.length < 4))
+                bot.fallBack("Por favor intentanuevamente, escriba su *cedula* (Solo números) :")
+
+            user.NameOfClient = ctx.body;
+            user.phoneNumber = ctx.from;
+        })
+
     //Capture Cedula
     .addAnswer("Por favor, escriba su *cedula* (Solo números) :", { capture: true },
         async (ctx, bot) => {
 
-            if (! (ctx.body.length === 11) )
+            if (!(ctx.body.length === 11))
                 bot.fallBack("Por favor intentanuevamente, escriba su *cedula* (Solo números) :")
 
             user.ID = ctx.body;
-            user.phoneNumber = ctx.from;
+        })
+
+
+    //Capture phoneNumberClient
+    .addAnswer("Por favor, escriba el *número del cliente* :", { capture: true },
+        async (ctx, bot) => {
+
+            if (!(ctx.body.length > 10))
+                bot.fallBack("Por favor intentanuevamente, escriba su *cedula* (Solo números) :")
+
+            user.phoneNumberClient = ctx.body;
         })
 
     // Capture Image
@@ -64,7 +87,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
     .addAction(async (ctx, bot) => {
 
         // SaveData(user);
-        const statusCall = await uploadImageV2(user.phoneNumber, user.ID, user.filePathPurchase)
+        const statusCall = await uploadImageV3(user.phoneNumber, user.NameOfClient, user.ID, user.phoneNumberClient,user.filePathPurchase)
 
         if (!statusCall) {
             bot.endFlow("Ha ocurrido un error, por favor intenta nuevamente.")
