@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename); // Assuming you have 'path' imported
 
 const user = {
     phoneNumber: "",
-    filePathId: "",
+    ID: "",
     filePathPurchase: "",
 }
 
@@ -19,37 +19,15 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
     .addAnswer("Para registrarnos en el concurso, vamos a necesitar conocer algunas cosas sobre ti.\n\n")
 
     //Capture Cedula
-    .addAnswer("Por favor, compartenos una foto de tu *cedula* :", { capture: true },
+    .addAnswer("Por favor, escriba su *cedula* (Solo números) :", { capture: true },
         async (ctx, bot) => {
 
-            let localPath;
+            if (ctx.body.length == 11)
+                bot.fallBack("Por favor intentanuevamente, escriba su *cedula* (Solo números) :")
 
-            if (ctx.body.includes("image"))
-                bot.fallBack("Debe enviar una imagen valida de la factura, debe ser legible.")
-
-            try {
-                localPath = await bot.provider.saveFile(ctx, { path: path.join(__dirname) });
-            } catch (error) {
-                console.log(error)
-                bot.fallBack("Error al capturar la imagen, trata nuevamente.\nFavor enviarla nuevamente :")
-            }
-
-            user.filePathId = localPath;
+            user.ID = ctx.body;
             user.phoneNumber = ctx.from;
         })
-
-    //Upload File 
-    .addAction(async (ctx, bot) => {
-
-        const statusCall = await uploadImageInde(user.filePathId)
-        console.log(statusCall)
-
-        if (statusCall.status === false) {
-            bot.fallBack("Ha ocurrido un error, por favor intenta nuevamente.")
-        }
-
-        user.filePathId = statusCall.url;
-    })
 
     // Capture Image
     .addAnswer("Favor de tomar una foto de su comprobante donde se visualice los datos correctamente :", { capture: true },
@@ -86,7 +64,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
     .addAction(async (ctx, bot) => {
 
         // SaveData(user);
-        const statusCall = await uploadImageV2(user.phoneNumber, user.filePathId, user.filePathPurchase)
+        const statusCall = await uploadImageV2(user.phoneNumber, user.ID, user.filePathPurchase)
 
         if (!statusCall) {
             bot.endFlow("Ha ocurrido un error, por favor intenta nuevamente.")
