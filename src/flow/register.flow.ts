@@ -46,7 +46,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
     .addAnswer("Por favor, escriba el *número del cliente* :", { capture: true },
         async (ctx, bot) => {
 
-            if (!(ctx.body.length > 10))
+            if (!(ctx.body.length >= 10))
                 bot.fallBack("Por favor intentanuevamente, escriba el *número del cliente* :")
 
             user.phoneNumberClient = ctx.body;
