@@ -22,7 +22,7 @@ export const flowRegister = addKeyword<BaileysProvider, IDatabase>(["concurso", 
     .addAnswer("Por favor, escriba su *cedula* (Solo números) :", { capture: true },
         async (ctx, bot) => {
 
-            if (ctx.body.length == 11)
+            if (! (ctx.body.length === 11) )
                 bot.fallBack("Por favor intentanuevamente, escriba su *cedula* (Solo números) :")
 
             user.ID = ctx.body;
